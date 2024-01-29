@@ -27,4 +27,4 @@ main() {
 	READLINE_LINE="${selected}"
 	READLINE_POINT="${#READLINE_LINE}"
 }
-bind -x '"${FZF_ONELINER_SHORTCUT}":"main"'
+bind -x '"'"${FZF_ONELINER_SHORTCUT}"'":"main"'
